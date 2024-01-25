@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color:  hsl(0, 0%, 8%);
+    font-family: 'Inter' sans-serif;
+}
+.child-div
+{
+  
+    background-color: #1F1F1F;
+    border-radius: 20pxpaint;
+}
+.child-div img
+{
+    width: 25%;
+    border-radius: 50%;
+}
+.text-1
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.text-2
+{
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    font-weight: 700;
+}
+.text-3
+{
+    color: rgb(205, 197, 197);
+    font-size: 10px;
+}
+.button-c button
+{
+    background-color: #333333;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+}
+.button-c button:hover
+{
+    background-color: hsl(75,94%,57%);
+    transition:0.9s;
+}
